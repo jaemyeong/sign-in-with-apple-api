@@ -1,0 +1,25 @@
+{
+  "name": "sign-in-with-apple-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "author": "Jaemyeong Jin",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "minimist": "^1.2.6",
+    "node-fetch": "^3.2.9",
+    "pino": "^8.2.0",
+    "pino-pretty": "^8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
